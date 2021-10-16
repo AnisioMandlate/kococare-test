@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link"
 import Button from "@components/Button";
 import Input from "@components/Input";
 import styles from "@styles/SignUp.module.css";
@@ -69,7 +70,7 @@ const SignUp = () => {
             <Image src="/ArrowRight.png" alt="Right Arrow" width={24} height={24}/>
         </div>
         <Button className >
-          Next
+          <Link href="/sign-up-2">Next</Link>
         </Button> 
 
         
