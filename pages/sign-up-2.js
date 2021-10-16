@@ -62,7 +62,25 @@ const SignUp2 = () => {
           placeholder="Pick a date"
           onChange={handleChange}
         />
-        <h2 className={styles.title}>What is their date of birthday?</h2>
+        <h2 className={styles.title}>
+          <Link href="/">or Add their age instead</Link>
+          {/* <div className={styles.age}>
+            <Input
+              name="pet-name"
+              type="date"
+              value={formData["pet-name"]}
+              placeholder="Pick a date"
+              onChange={handleChange}
+            />
+            <Input
+              name="pet-name"
+              type="date"
+              value={formData["pet-name"]}
+              placeholder="Pick a date"
+              onChange={handleChange}
+            />
+          </div> */}
+        </h2>
       </div>
       <div className={styles["bottom-text"]}>
         <div className={styles.back}>
