@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import PhoneInput from "react-phone-input-2";
 import styles from "@styles/Home.module.css";
 import "react-phone-input-2/lib/bootstrap.css";
@@ -30,7 +31,9 @@ export default function Home() {
         onChange={(phone) => setPhone(phone)}
       />
 
-      <button className={styles.button}>Send OTP to verify</button>
+      <button className={styles.button}>
+        <Link href="/otp">Send OTP to verify</Link>
+      </button>
     </div>
   );
 }
