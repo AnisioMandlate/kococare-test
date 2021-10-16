@@ -41,7 +41,7 @@ const OTP = () => {
         </p>
 
         <Button>
-          Send OTP to verify
+          Verify my number
         </Button>
       </div>
     </div>
