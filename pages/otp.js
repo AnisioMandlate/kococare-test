@@ -42,7 +42,7 @@ const OTP = () => {
 
         { otp ? 
         <Button>
-          <Link href="/otp">Send OTP to verify</Link>
+          <Link href="/complete">Send OTP to verify</Link>
         </Button> : null 
         }
 
