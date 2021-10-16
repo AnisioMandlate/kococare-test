@@ -1,3 +1,7 @@
+.container {
+  align-self: center;
+}
+
 .button {
   padding: 14px 73px;
   font-weight: 700;

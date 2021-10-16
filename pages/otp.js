@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link"
 import OTPInput from "react-otp-input"
@@ -7,7 +7,8 @@ import styles from "@styles/Verification.module.css";
 
 
 const OTP = () => {
-  const [otp, setOtp] = useState("");
+    const [otp, setOtp] = useState("");
+ 
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -28,12 +29,21 @@ const OTP = () => {
           <span>
             <Link href="/">Re-send </Link>
           </span>
-          OTP in 0:10 secs
+          OTP in 00:10 secs
         </p>
       </div>
-     <Button>
-       Send OTP to verify
-     </Button>
+      <div className={styles.["bottom-text"]}>
+         <p className={styles.backlink}>
+          <span>
+            <Link href="/">Go Back </Link>
+          </span>
+          and update your Phone No.
+        </p>
+
+        <Button>
+          Send OTP to verify
+        </Button>
+      </div>
     </div>
   );
 };
