@@ -40,9 +40,13 @@ const OTP = () => {
           and update your Phone No.
         </p>
 
+        { otp ? 
         <Button>
-          Verify my number
-        </Button>
+          <Link href="/otp">Send OTP to verify</Link>
+        </Button> : null 
+        }
+
+        
       </div>
     </div>
   );
