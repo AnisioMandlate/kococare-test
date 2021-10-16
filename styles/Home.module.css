@@ -2,7 +2,7 @@
   min-height: 100vh;
   min-width: 100vw;
   padding: 1.5rem;
-  background-color: #e5e5e5;
+  background-color: #c2d4da;
   color: #022859;
 }
 
@@ -11,11 +11,15 @@
   font-weight: 700;
 }
 
-.subtitle,
 .text {
-  font-size: 0.875rem;
+  margin: 1.5rem 0 2rem 0;
 }
 
 .subtitle {
   font-weight: 600;
+}
+
+.subtitle,
+.text {
+  font-size: 0.875rem;
 }
