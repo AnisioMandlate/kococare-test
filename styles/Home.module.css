@@ -37,4 +37,5 @@
   border: none;
   align-self: center;
   justify-self: flex-end;
+  border-radius: 6px;
 }
