@@ -2,9 +2,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@components/Button";
-import Select from "@components/Select";
 import styles from "@styles/SignUp.module.css";
-import ColourPicker from "@components/DivColorPicker";
 
 const SignUp3 = () => {
   const [formData, setFormData] = useState({});
@@ -122,7 +120,7 @@ const SignUp3 = () => {
           </Link>
         </div>
         <Button className>
-          <Link href="/sign-up-3">Next</Link>
+          <Link href="/setup">Next</Link>
         </Button>
       </div>
     </div>
