@@ -6,7 +6,7 @@
   color: #022859;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .title {
@@ -29,7 +29,6 @@
   line-height: 150%;
 }
 .button {
-  margin-top: 73px;
   padding: 14px 73px;
   font-weight: 700;
   font-size: 1.125rem;
