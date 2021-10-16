@@ -36,3 +36,19 @@
 .re-send > span {
   color: #fff;
 }
+
+.input {
+  width: 45px !important;
+  height: 76px;
+  text-align: center;
+  background: #59dda0;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.input-container {
+  width: 318px;
+  justify-content: space-between;
+}

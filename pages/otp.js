@@ -1,8 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link"
-import styles from "@styles/Verification.module.css";
+import OTPInput from "react-otp-input"
 import Button from "@components/Button";
+import styles from "@styles/Verification.module.css";
+
 
 const OTP = () => {
   const [otp, setOtp] = useState("");
@@ -14,6 +16,13 @@ const OTP = () => {
         </header>
 
         <h2 className={styles.title}>Verify your phone no.</h2>
+        <OTPInput
+        value={otp}
+        onChange={(otp) => setOtp(otp)}
+        numInputs={6}
+        containerStyle={styles.["input-container"]}
+        inputStyle={styles.input}
+         />
         <p className={styles.text}>Please enter the OTP you recieved</p>
         <p className={styles.["re-send"]}>
           <span>
