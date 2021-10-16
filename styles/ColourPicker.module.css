@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colour-name {
+  font-size: 9px;
+  font-weight: 400;
+  color: #022859;
+  margin: 0;
+}
+
+.black {
+  background: #000;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.grey {
+  background: #3b3b3b;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.cream {
+  background: #f3ebd9;
+  border: 1px solid #022859;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.white {
+  background: #ffffff;
+  border: 1px solid #022859;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.lightBrown {
+  background: #be9f86;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.darkBrown {
+  background: #be9f86;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.brown {
+  background: #895d37;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.golden {
+  background: #c58c40;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.lightGolden {
+  background: #eebb6a;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}

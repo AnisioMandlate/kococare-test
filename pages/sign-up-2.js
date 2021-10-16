@@ -94,7 +94,7 @@ const SignUp2 = () => {
           </Link>
         </div>
         <Button className>
-          <Link href="/signUp2">Next</Link>
+          <Link href="/sign-up-3">Next</Link>
         </Button>
       </div>
     </div>

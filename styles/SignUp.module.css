@@ -85,3 +85,28 @@
 .age {
   display: flex;
 }
+
+.buttons-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  padding: 14px 73px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  background: #fff;
+  border: none;
+  align-self: center;
+  justify-self: flex-end;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #022859;
+}
+
+.colors-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 75px);
+  grid-template-rows: repeat(2, 75px);
+  gap: 10px;
+}

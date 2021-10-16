@@ -47,3 +47,16 @@ a {
 .green:disabled {
   background: #2fd4877a;
 }
+
+.blue {
+  padding: 14px 73px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  background: #022859;
+  color: #fff;
+  border: none;
+  align-self: center;
+  justify-self: flex-end;
+  border-radius: 6px;
+  cursor: pointer;
+}
