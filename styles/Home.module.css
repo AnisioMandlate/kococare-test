@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 1.5rem;
+  background-color: #e5e5e5;
+  color: #022859;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.subtitle,
+.text {
+  font-size: 0.875rem;
+}
+
+.subtitle {
+  font-weight: 600;
+}
