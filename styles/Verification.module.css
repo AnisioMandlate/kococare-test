@@ -7,35 +7,32 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  align-self: flex-start;
 }
 
 .title {
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   line-height: 100%;
 }
 
 .text {
-  margin: 1rem 0 1.3rem 0;
   font-weight: 500;
 }
 
-.subtitle {
-  font-weight: 600;
+.re-send {
+  font-weight: bold;
 }
-.subtitle,
+.re-send,
 .text {
   font-size: 1rem;
   line-height: 150%;
 }
-.button {
-  padding: 14px 73px;
-  font-weight: 700;
-  font-size: 1.125rem;
-  background: #fff;
-  border: none;
-  align-self: center;
-  justify-self: flex-end;
-  border-radius: 6px;
-  cursor: pointer;
+
+.re-send > span {
+  color: #fff;
 }

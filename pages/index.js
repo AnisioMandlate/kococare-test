@@ -4,12 +4,13 @@ import Link from "next/link";
 import PhoneInput from "react-phone-input-2";
 import styles from "@styles/Home.module.css";
 import "react-phone-input-2/lib/bootstrap.css";
+import Button from "@components/Button";
 
 export default function Home() {
   const [phone, setPhone] = useState("");
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.content}>
         <header>
           <Image src="/logo.png" alt="Kococare Logo" width={32} height={31.2} />
         </header>
@@ -33,9 +34,9 @@ export default function Home() {
         />
       </div>
 
-      <button className={styles.button}>
+      <Button>
         <Link href="/otp">Send OTP to verify</Link>
-      </button>
+      </Button>
     </div>
   );
 }
