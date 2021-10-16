@@ -96,7 +96,6 @@
   font-weight: 700;
   font-size: 1.125rem;
   background: #fff;
-  border: none;
   align-self: center;
   justify-self: flex-end;
   border-radius: 6px;
@@ -109,4 +108,32 @@
   grid-template-columns: repeat(5, 75px);
   grid-template-rows: repeat(2, 75px);
   gap: 10px;
+}
+
+.personality-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.personality-div {
+  padding: 10px 12px;
+  min-width: 122px;
+  max-width: 150px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.125rem;
+  background: #fff;
+  color: #022859;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #022859;
+}
+
+.personality-div > p {
+  margin: 0;
 }

@@ -2,7 +2,6 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "@components/Button";
-import Input from "@components/Input";
 import Select from "@components/Select";
 import styles from "@styles/SignUp.module.css";
 import ColourPicker from "@components/DivColorPicker";
@@ -99,7 +98,7 @@ const SignUp3 = () => {
           </Link>
         </div>
         <Button className>
-          <Link href="/sign-up-3">Next</Link>
+          <Link href="/sign-up-4">Next</Link>
         </Button>
       </div>
     </div>
