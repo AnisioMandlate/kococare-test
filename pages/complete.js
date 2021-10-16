@@ -20,7 +20,7 @@ const CompleteSetup = () => {
           Help us fine tune the features of this app to fit you and your pet’s needs better
         </p>
         <Button>
-          <Link href="/otp">Let’s go!</Link>
+          <Link href="/sign-up">Let’s go!</Link>
         </Button> 
         
       </div>

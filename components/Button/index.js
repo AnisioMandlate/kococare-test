@@ -1,9 +1,12 @@
-import styles from "@styles/Button.module.css";
-
-const Button = ({ children }) => {
+const Button = ({ className, children, disabled }) => {
   return (
-    <div className={styles.container}>
-      <button className={styles.button}>{children}</button>
+    <div className="container">
+      <button
+        className={`button ${className ? "green" : ""}`}
+        disabled={disabled ? true : false}
+      >
+        {children}
+      </button>
     </div>
   );
 };

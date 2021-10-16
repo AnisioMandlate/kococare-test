@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  align-self: center;
+}
+
+.button {
+  padding: 14px 73px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  background: #fff;
+  border: none;
+  align-self: center;
+  justify-self: flex-end;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.green {
+  padding: 14px 73px;
+  font-weight: 700;
+  font-size: 1.125rem;
+  background: #2fd488;
+  color: #fff;
+  border: none;
+  align-self: center;
+  justify-self: flex-end;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.green:disabled {
+  background: #2fd4877a;
+}
