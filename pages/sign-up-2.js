@@ -35,22 +35,12 @@ const SignUp2 = () => {
           <Image src="/logo-green.png" alt="Kococare Logo" width={32} height={31.2} />
         </header>
         <h2 className={styles.title}>Okay! Let’s get to know your doggo, Add a picture of your pet!</h2>
-        <div>
+        <div className={styles.["image-upload"]}>
           <ImageUpload />
-          <Input 
-          name="username" 
-          type="text"
-          value={formData["username"]}
-          placeholder="eg: Ramesh Suresh"
-          onChange={handleChange} 
-        />
-
+          <p>Take a picture or
+            <br/>
+            select from your gallery</p>
         </div>
-
-        
-
-        
-        
         <h2 className={styles.title}>and, What is your experience level as a pet parent? </h2>
       
       </div>

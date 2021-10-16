@@ -69,3 +69,15 @@
   border: 1px solid #022859;
   border-radius: 6px;
 }
+
+.image-upload {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.image-upload > p {
+  margin-left: 1rem;
+  font-size: 12px;
+  line-height: 16px;
+}
