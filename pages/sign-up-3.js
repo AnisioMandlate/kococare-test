@@ -88,7 +88,7 @@ const SignUp3 = () => {
       </div>
       <div className={styles["bottom-text"]}>
         <div className={styles.back}>
-          <Link href="/sign-up">
+          <Link href="/sign-up-2">
             <Image
               src="/ArrowRight.png"
               alt="Right Arrow"

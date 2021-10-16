@@ -137,3 +137,15 @@
 .personality-div > p {
   margin: 0;
 }
+
+@media (min-width: 1024px) {
+  .content,
+  .bottom-text {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .bottom-text {
+    justify-content: space-evenly;
+  }
+}

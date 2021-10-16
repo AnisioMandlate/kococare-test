@@ -44,3 +44,10 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+@media (min-width: 1024px) {
+  .content {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}

@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import PhoneInput from "react-phone-input-2";
-import styles from "@styles/Home.module.css";
-import "react-phone-input-2/lib/bootstrap.css";
 import Button from "@components/Button";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/bootstrap.css";
+import styles from "@styles/Home.module.css";
 
 export default function Home() {
   const [phone, setPhone] = useState("");
