@@ -1,12 +1,10 @@
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 import Button from "@components/Button";
 import styles from "@styles/CompleteSetup.module.css";
 
-
 const CompleteSetup = () => {
- 
   return (
     <div className={styles.container}>
       <div className={styles.content}>
@@ -15,14 +13,14 @@ const CompleteSetup = () => {
         </header>
         <h2 className={styles.title}>Let’s get to know each other</h2>
       </div>
-      <div className={styles.["bottom-text"]}>
-         <p className={styles.backlink}>
-          Help us fine tune the features of this app to fit you and your pet’s needs better
+      <div className={styles["bottom-text"]}>
+        <p className={styles.backlink}>
+          Help us fine tune the features of this app to fit you and your pet’s
+          needs better
         </p>
         <Button>
           <Link href="/sign-up">Let’s go!</Link>
-        </Button> 
-        
+        </Button>
       </div>
     </div>
   );
